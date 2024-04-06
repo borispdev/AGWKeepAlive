@@ -1,0 +1,14 @@
+
+### Please restart service after modifiying any of these settings ### 
+
+# AGW settings:
+[AGW]
+    # List of AGW IP adresses to keep connection alive. Example: ["172.20.28.1", "172.20.28.2", "172.20.28.3"] and so on.
+    ip_list = ["192.168.0.1", "192.168.0.2", "192.168.0.3", "192.168.0.4"]
+
+# Service settings:
+[service]
+    interval = 60 # Requests nterval in sec. 
+    request_timeout = 20 # Request timeout treshhold in sec.
+    log_file = "agw_connection.log" # Log file name.
+    log_success = true # Write connection success mesages to log file.
