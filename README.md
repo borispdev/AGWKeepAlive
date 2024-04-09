@@ -85,7 +85,7 @@
 	```toml
 	ip_list = ["192.168.0.1", "192.168.0.2", "192.168.0.3", "192.168.0.4"]
 	```
-	Replace IP addresses in square brackets with those of real AGWs. **Each address must be in double quotes and separated from each other with comma sign**
+	Replace IP addresses in square brackets with those of real AGWs. **Each address must be in double quotes and separated from each other by a comma sign.**
 - At this point the service is configured and ready to use.
 - Additional configuration parameters are:
 	- `interval` - Time interval in sec. between requests sent to AGWs.
